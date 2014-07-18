@@ -5,6 +5,7 @@ use Cassandra\Enum\OpcodeEnum;
 
 require 'application/libraries/Cassandra/Enum/OpcodeEnum.php';
 require 'Request.php';
+require 'BinaryData.php';
 
 final class RequestFactory {
 

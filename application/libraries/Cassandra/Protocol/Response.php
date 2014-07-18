@@ -10,6 +10,7 @@ use Cassandra\Protocol\Response\DataStream\TypeReader;
 use Cassandra\Protocol\Response\Rows;
 
 require_once 'Response/DataStream.php';
+require_once 'Response/DataStream/TypeReader.php';
 require_once 'application/libraries/Cassandra/Enum/ErrorCodesEnum.php';
 require_once 'application/libraries/Cassandra/Enum/ResultTypeEnum.php';
 

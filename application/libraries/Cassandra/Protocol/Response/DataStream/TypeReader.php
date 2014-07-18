@@ -3,6 +3,9 @@ namespace Cassandra\Protocol\Response\DataStream;
 use Cassandra\Enum\DataTypeEnum;
 use Cassandra\Protocol\Response\DataStream;
 
+require_once 'application/libraries/Cassandra/Enum/DataTypeEnum.php';
+
+
 final class TypeReader {
 
 	/**
