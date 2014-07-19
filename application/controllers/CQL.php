@@ -10,7 +10,9 @@ class CQL extends CI_Controller {
 	
 	public function index()
 	{
-		$this->load->view('formConsulta');
+		$vars['consulta'] = '';
+		$vars['res'] = '';
+		$this->load->view('formConsulta',$vars);
 	}
 	
 	public function ejecutar()
@@ -18,6 +20,7 @@ class CQL extends CI_Controller {
 		$consulta = $this->input->post('consulta');
 		
 		//TODO ejecutar CQl
+		$resultado['consulta'] = $consulta;
 		$resultado['res'] = $this->cassandraModel->ejecutar($consulta);
 		
 		//TODO cargar resultados en vista

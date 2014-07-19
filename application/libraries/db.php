@@ -25,6 +25,7 @@ class Db extends Database{
         $this->CI = & get_instance();
         $this->db = new Database($nodeas, 'PruebaProyectos');
         $this->db->connect();
+
         return $this->db;
     }
 

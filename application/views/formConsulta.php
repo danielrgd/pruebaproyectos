@@ -16,7 +16,7 @@
    <br>
 	  <?= form_submit('ejecutar', 'Ejecutar')?>
 <?=form_close()?>
-<?php echo $res ?>
+<?php $this->load->view('resultados'); ?>
 </center>
 </body>
 </html>

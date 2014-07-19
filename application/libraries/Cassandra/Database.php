@@ -61,6 +61,7 @@ class Database {
 		$this->connection = new Connection($this->cluster);
 		$this->options = array_merge($this->options, $options);
 		$this->keyspace = $keyspace;
+
 	}
 
 	/**
