@@ -38,9 +38,10 @@
 |
 */
 
-$route['default_controller'] = "CQL";
+$route['default_controller'] = "sesion/sesion_c";
 $route['404_override'] = '';
 
+$route['sesion'] = 'sesion/sesion_c';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

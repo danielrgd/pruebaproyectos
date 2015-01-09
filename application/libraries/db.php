@@ -23,7 +23,7 @@ class Db extends Database{
     public function __construct() {
     	$nodeas = ['127.0.0.1'];
         $this->CI = & get_instance();
-        $this->db = new Database($nodeas, 'PruebaProyectos');
+        $this->db = new Database($nodeas, 'repositorio_proyectos');
         $this->db->connect();
 
         return $this->db;
